@@ -1,11 +1,12 @@
 from fastapi import FastAPI, Response
 import uvicorn 
 app = FastAPI()
-from gtfs_realtime_pb2 import VehiclePosition
+
 
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
 
 @app.get("/rt")
 def rt(response: Response):
