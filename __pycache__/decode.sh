@@ -1,0 +1,1 @@
+protoc --decode transit_realtime.VehiclePosition  gtfs-realtime.proto < File.PB

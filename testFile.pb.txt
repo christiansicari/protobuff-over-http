@@ -1,0 +1,11 @@
+trip {
+  start_time: "10:10:00"
+  start_date: "20160203"
+  route_id: "2N"
+  direction_id: 0
+}
+position {
+  latitude: 38.1537132
+  longitude: 15.5128222
+}
+timestamp: 1682952204
